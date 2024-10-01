@@ -25,3 +25,12 @@ jobs:
       uses: actions/setup-python@v5.2.0
       with: 
         python-version: 3.12
+    - name: Test
+      run: node --version
+      run: python --version
+
+# Pode também ser feito da seguinte forma:
+#    - name: Test
+#      run: |
+#        node --version
+#        python --version
